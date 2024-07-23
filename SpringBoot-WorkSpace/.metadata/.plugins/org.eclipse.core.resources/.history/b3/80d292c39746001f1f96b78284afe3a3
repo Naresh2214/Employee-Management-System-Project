@@ -1,0 +1,15 @@
+package com.ihub.www.model;
+
+@Entity
+@Table(name="employees")
+public class Employee 
+{
+   @id
+   private int id;
+   @column
+   private String firstName;
+   @column
+   private String lastName;
+   @column
+   private String email;
+}
